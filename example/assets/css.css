@@ -1,0 +1,32 @@
+@import url(//fonts.googleapis.com/css?family=Indie+Flower);
+
+body {
+	color: #444;
+	font-size: 15px;
+	font-family: 'Indie Flower', cursive;
+}
+.wrapper {
+	width: 600px;
+	margin: 0 auto;
+}
+h1 {
+	margin: 0 0 10px;
+}
+textarea {
+	width: 100%;
+}
+
+/* CANDIMAGE */
+
+.candimage-picker .candimage-picker-item {
+	background: url("loading.gif") center center no-repeat;
+}
+.candimage-picker .candimage-picker-item-img-container div {
+	display: none;
+}
+.candimage-picker .candimage-picker-item-loaded {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.candimage-picker .candimage-picker-item-loaded .candimage-picker-item-img-container div {
+	display: inline-block;
+}
