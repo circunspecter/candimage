@@ -1,3 +1,5 @@
+# CKEditor Candimage
+
 CKEditor plugin that allows upload and browse images.
 
 Features:
@@ -6,7 +8,7 @@ Features:
 - Customizable
 
 Requirements:
-- [CKEditor](http://ckeditor.com) (with [Image](http://ckeditor.com/addon/image)" plugin)
+- [CKEditor](http://ckeditor.com) (with [Image](http://ckeditor.com/addon/image) plugin)
 - [jQuery](http://jquery.com/)
 
 ## Installation
