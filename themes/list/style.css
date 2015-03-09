@@ -1,0 +1,83 @@
+.cke_dialog_contents .candimage-picker {
+	overflow: auto;
+	position: relative;
+	max-height: 400px;
+}
+.candimage-picker-item {
+	overflow: hidden;
+	position: relative;
+	border-bottom: 1px solid #eee;
+}
+.candimage-picker-item:hover .candimage-picker-item-image {
+	cursor: pointer;
+}
+.candimage-picker-item:hover .candimage-picker-item-image-name {
+	text-decoration: underline;
+}
+.candimage-picker-item-img-container {
+	display: table-cell;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    width: 50px;
+}
+.candimage-picker-item-image {
+	max-height: 50px;
+    max-width: 50px;
+}
+.candimage-picker-item-image-name {
+	position: absolute;
+	top: 50%;
+	left: 60px;
+	line-height: 20px;
+	margin-top: -10px;
+	max-width: 200px;
+}
+.candimage-picker-item-delete-container {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	width: 30px;
+	height: 20px;
+	margin-top: -10px;
+	background-color: #fff;
+	text-align: center;
+}
+.candimage-picker-item-delete {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	top: 2px;
+	width: 10px;
+	height: 10px;
+	border: 2px solid #444;
+	background-color: #de3a3c;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.candimage-picker-item-selected .candimage-picker-item-image {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+.candimage-picker-item-selected .candimage-picker-item-image-name {
+	font-weight: bold;
+}
+.candimage-picker-loading {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}

@@ -1,0 +1,6 @@
+{
+	"picker": {
+		"width": 300
+	},
+	"tplReplacements": ["imgUrl", "imgName"]
+}
